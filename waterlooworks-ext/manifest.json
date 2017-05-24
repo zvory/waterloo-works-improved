@@ -1,7 +1,7 @@
 {
 
   "manifest_version": 2,
-  "name": "Waterloo Works on Firefox",
+  "name": "Waterloo Works Plus",
   "description": "Fixes some CSS and functionality issues of Waterloo Works, the University of Waterloo's job matching system.",
   "version": "0.1",
   "homepage_url": "http://zvoryg.in",
