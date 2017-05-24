@@ -25,3 +25,5 @@ console.log("Right Before REturn");
 Add notifyExtension() as a listener to click events.
 */
 window.addEventListener("click", notifyExtension);
+
+
