@@ -1,0 +1,30 @@
+{
+
+  "manifest_version": 2,
+  "name": "Waterloo Works Plus",
+  "description": "Fixes some CSS and functionality issues of Waterloo Works, the University of Waterloo's job matching system.",
+  "version": "0.1",
+  "homepage_url": "http://zvoryg.in",
+  "icons": {
+    "48": "icons/WW.png"
+  },
+
+  "permissions": [
+      "notifications",
+      "*://waterlooworks.uwaterloo.ca/*",
+      ]
+
+  "background": {
+    "scripts": ["background-script.js"]
+  },
+  
+  "content_scripts": [
+    {
+      "matches": ["https://waterlooworks.uwaterloo.ca/myAccount/co-op/coop-postings.htm"],
+      "js": ["content-script.js"],
+      "css": ["style.css"]
+    }
+  ],
+  
+  "default_locale": "en"
+}
