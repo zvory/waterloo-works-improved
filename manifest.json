@@ -26,7 +26,5 @@
 			"js": ["content-script.js"],
 			"css": ["style.css"]
 		}
-	],
-
-	"default_locale": "en"
+	]
 }

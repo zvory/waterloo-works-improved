@@ -8,4 +8,6 @@ Things this extension will do:
 
 Optional:
  - [ ] Allow the user to remove items from their shortlist after the posting has expired/the user has applied to the job (Thanks to @neilparikh for the suggestion)
- - [ ] Match functionality of all other WaterlooWorks extensions
+
+
+#### MPL 2.0 License
