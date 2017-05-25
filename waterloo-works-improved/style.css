@@ -1,22 +1,15 @@
-body {
-    color:blue;
-}
-
 table#postingsTable {
     table-layout: fixed;
     width:99%;
 }
 
+div.sequenceTableContainer table {
+    white-space: normal !important;
+}
+
 div.tab-content {
     padding: 0px !important;
 }
-
-/*
-@media only screen and (max-width: 1200px) {
-    table#postingsTable {
-        table-layout: auto;
-    }
-}*/
 
 div#mainContentDiv{
     margin-left: 20px !important;
@@ -27,5 +20,11 @@ div.container-fluid:nth-child(3) {
 }
 
 table#postingsTable td {
+    white-space:normal !important;
+}
+.gridBox .tablesorter-headerRow th {
+    white-space:normal !important;
+}
+.gridBox td {
     white-space:normal !important;
 }

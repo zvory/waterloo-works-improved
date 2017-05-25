@@ -1,0 +1,32 @@
+{
+
+	"manifest_version": 2,
+	"name": "WaterlooWorks Improved",
+	"short_name": "WW Improved",
+	"description": "Fixes some CSS and functionality issues of Waterloo Works, the University of Waterloo's job matching system. This is just to match my personal preference, and I provide no guarantees this won't horribly ruin everything. Use at your own risk, I'm not liable for anything that happens.",
+	"version": "1.0",
+
+	"author": "Alexander Zvorygin",
+	"homepage_url": "https://github.com/zvory/waterloo-works-plus",
+
+	"icons": {
+		"48": "icons/WWI-48.png",
+		"96": "icons/WWI-96.png"
+	},
+
+	"permissions": [
+		"*://waterlooworks.uwaterloo.ca/*"
+	],
+
+	"content_scripts": [
+		{
+			"matches": ["*://waterlooworks.uwaterloo.ca/myAccount/co-op/coop-postings.htm",
+            "*://waterlooworks.uwaterloo.ca/myAccount/dashboard.htm",
+            "*://waterlooworks.uwaterloo.ca/myAccount/co-op/coopApplications.htm"],
+			"js": ["content-script.js"],
+			"css": ["style.css"]
+		}
+	],
+
+	"default_locale": "en"
+}
