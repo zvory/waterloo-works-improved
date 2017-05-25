@@ -22,9 +22,11 @@ div.container-fluid:nth-child(3) {
 table#postingsTable td {
     white-space:normal !important;
 }
+
 .gridBox .tablesorter-headerRow th {
     white-space:normal !important;
 }
+
 .gridBox td {
     white-space:normal !important;
 }
